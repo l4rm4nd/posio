@@ -28,26 +28,26 @@ The web application will be available at [http://127.0.0.1:5000](http://127.0.0.
 
 ## 🐍 Example 2 - Native Python
 
-1. Create a new [virtual environment](https://docs.python.org/3/library/venv.html) and activate it
 
 ```
+# download github repo
+git clone https://github.com/l4rm4nd/posio && cd posio
+
+# create virtualenv
 python -m venv .venv
 source .venv/bin/activate
-```
 
-2. Install dependencies
-
-```
+# install dependencies
 pip install -r requirements.txt
-```
 
-3. Run the application
+# export envs
+export FLASK_APP=$(pwd)/posio/game_master.py
+export POSIO_SETTINGS=$(pwd)/posio/config.py
 
+# run the app on localhost
+flask run --host 127.0.0.1
 ```
-flask --app posio run --host 127.0.0.1
-```
-
-4. Open the following URL in your browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+The web application will be available at [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
 ## License
 
