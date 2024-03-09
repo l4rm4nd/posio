@@ -12,7 +12,8 @@ services:
     volumes:
       - ${DOCKER_VOLUME_STORAGE:-/mnt/docker-volumes}/posio/data:/posio
     environment:
-      - POSIO_SETTINGS=/app/config.py
+      - POSIO_SETTINGS=/app/posio/config.py
+      - FLASK_APP=/app/posio/game_master.py
     #networks:
     #  - proxy
     #labels:
