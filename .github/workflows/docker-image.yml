@@ -31,5 +31,5 @@ jobs:
           context: .
           file: docker/Dockerfile
           push: true
-          tags: l4rm4nd/posio:öatest
+          tags: l4rm4nd/posio:latest
           platforms: linux/amd64
