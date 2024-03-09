@@ -1,8 +1,8 @@
 # How long is given to players to answer a question (in seconds)
-MAX_RESPONSE_TIME = 5
+MAX_RESPONSE_TIME = 7
 
 # Number of seconds between each turns (in seconds)
-TIME_BETWEEN_TURNS = 3
+TIME_BETWEEN_TURNS = 2
 
 # Number of answer used to compute ranking
 LEADERBOARD_ANSWER_COUNT = 10
@@ -14,4 +14,4 @@ SCORE_MAX_DISTANCE = 2000
 ALLOW_MULTIPLE_ANSWER = 1  # 0 for False, 1 for True
 
 # How many zoom level are allowed (max 2)
-ZOOM_LEVEL = 0
+ZOOM_LEVEL = 2
