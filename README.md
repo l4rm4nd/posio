@@ -26,7 +26,7 @@ docker compose up -d
 ````
 The web application will be available at [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-## 🐍 Example 3 - Native Python
+## 🐍 Example 2 - Native Python
 
 1. Create a new [virtual environment](https://docs.python.org/3/library/venv.html) and activate it
 
